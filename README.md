@@ -1,5 +1,3 @@
-# BÀI THỰC HÀNH BT03 – LÀM VIỆC VỚI TẬP TIN TRONG NODE.JS
-
 ## 1. Tạo thư mục và tập tin
 
 Cấu trúc thư mục:
