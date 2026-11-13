@@ -1,1 +1,19 @@
+const fs = require('fs');
+
+const thongTin = "Ho va ten: VÕ THÀNH PHÚC\nMa sinh vien: CDCNTT18A22\n";
+
+fs.writeFileSync('thongtin.txt', thongTin);
+
+console.log("=== NOI DUNG BAN DAU ===");
+
+let noiDung = fs.readFileSync('thongtin.txt', 'utf8');
+console.log(noiDung);
+
+
+fs.appendFileSync('thongtin.txt', 'Ten lop: CNTT18A\n');
+
+console.log("=== NOI DUNG SAU KHI CAP NHAT ===");
+
+noiDung = fs.readFileSync('thongtin.txt', 'utf8');
+console.log(noiDung);
 
